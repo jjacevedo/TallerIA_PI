@@ -21,5 +21,6 @@ class Command(BaseCommand):
                 self.stdout.write(self.style.SUCCESS(f"Updated image for: {movie.title}"))
             else:
                 self.stderr.write(f"Image not found for: {movie.title} (expected: {image_path_full})")
+            break
 
         self.stdout.write(self.style.SUCCESS(f"Finished updating {updated_count} movie images."))

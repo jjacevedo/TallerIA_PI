@@ -9,3 +9,7 @@
 /DjangoProjectBase/openAI.env
 openAI.env
 __pycache__/
+.DS_Store
+*.sqlite3
+images.zip
+~$*
